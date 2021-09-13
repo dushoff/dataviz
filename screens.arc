@@ -8,7 +8,7 @@ XX. course/old_repo https://github.com/mac-theobio/DataViz19.git
 
 XX. Adegboye: https://github.com/korede97/Stat744.git
 
-XX. Cai: https://github.com/ruicai-223/Stat744.git
+XX. Cai: https://github.com/ruicai-rc/Stat744.git
 
 XX. Chowdhury: https://github.com/Abhiroop24/Stat744.git
 
