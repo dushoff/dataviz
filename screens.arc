@@ -4,7 +4,9 @@ XX. course: https://github.com/mac-theobio/DataViz.git
 
 XX. private: https://github.com/mac-theobio/DataViz_private.git
 
-XX. course/old_repo https://github.com/mac-theobio/DataViz19.git
+XX. course/old_repo: https://github.com/mac-theobio/DataViz19.git
+
+XX. course/code:
 
 XX. Adegboye: https://github.com/korede97/Stat744.git
 
