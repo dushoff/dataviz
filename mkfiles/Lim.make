@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Kyuson Lim
 
 current: target
 -include target.mk
@@ -10,7 +10,12 @@ vim_session:
 
 ######################################################################
 
+autopipeR = defined
+
 Sources += README.md
+
+Sources += donut_chart.R
+donut_chart.Rout: donut_chart.R
 
 ######################################################################
 
@@ -29,7 +34,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

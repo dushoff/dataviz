@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Jason Pekos
 
 current: target
 -include target.mk
@@ -7,6 +7,15 @@ current: target
 
 vim_session:
 	bash -cl "vmt"
+
+######################################################################
+
+autopipeR = defined
+
+Sources += README.md 1Asg/ReadMe.md
+
+## Sources += donut_chart.R
+## donut_chart.Rout: donut_chart.R
 
 ######################################################################
 
@@ -25,7 +34,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
