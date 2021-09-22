@@ -1,18 +1,13 @@
-https://github.com/clarkkm2/Stat744/invitations
 
 XX. course: https://github.com/mac-theobio/DataViz.git
 
 XX. private: https://github.com/mac-theobio/DataViz_private.git
 
-XX. course/old_repo:
+XX. course/old_repo: https://github.com/mac-theobio/DataViz19.git
 
-old_repo is https://github.com/mac-theobio/DataViz19.git
-
-ancient: https://github.com/bbolker/stat744.git NOALL
+XX. course/lectures:
 
 XX. course/code:
-
-XX. course/lect:
 
 XX. Adegboye: https://github.com/korede97/Stat744.git
 
