@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Korede A.
 
 current: target
 -include target.mk
@@ -9,6 +9,14 @@ vim_session:
 	bash -cl "vmt"
 
 ######################################################################
+
+## No pipeline
+## HW2/hw2.html: HW2/hw2.Rmd
+
+Sources += HW2/jd.txt
+
+HW2/%.html: HW2/%.Rmd
+	$(knithtml)
 
 ### Makestuff
 
@@ -25,7 +33,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
