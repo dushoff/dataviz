@@ -12,7 +12,11 @@ vim_session:
 
 autopipeR = defined
 
-Sources += README.md
+Sources += README.md hw2.Rmd
+
+Ignore += *.html
+hw2.html: hw2.Rmd
+	$(knithtml)
 
 ## Sources += donut_chart.R
 ## donut_chart.Rout: donut_chart.R

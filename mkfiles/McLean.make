@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for McLean
 
 current: target
 -include target.mk
@@ -9,6 +9,13 @@ vim_session:
 	bash -cl "vmt"
 
 ######################################################################
+
+Sources += $(wildcard *.R)
+## hw2.Rout: hw2.R
+
+######################################################################
+
+autopipeR = defined
 
 ### Makestuff
 
@@ -25,7 +32,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

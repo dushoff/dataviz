@@ -12,7 +12,7 @@ vim_session:
 
 autopipeR = defined
 
-Sources += README.md 1Asg/ReadMe.md
+Sources += README.md
 
 ## Sources += donut_chart.R
 ## donut_chart.Rout: donut_chart.R
