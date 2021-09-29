@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Sina Zarini
 
 current: target
 -include target.mk
@@ -7,6 +7,16 @@ current: target
 
 vim_session:
 	bash -cl "vmt"
+
+######################################################################
+
+autopipeR = defined
+Sources += $(wildcard *.R)
+
+HW2.Rout: HW2.R vaccinedata.csv
+Ignore += vaccinedata.csv
+vaccinedata.csv:
+	$(LN) ../course/docs/data/vaccine_data_online.csv $@
 
 ######################################################################
 
@@ -25,7 +35,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

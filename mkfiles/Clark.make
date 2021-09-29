@@ -10,6 +10,14 @@ vim_session:
 
 ######################################################################
 
+autopipeR = defined
+
+######################################################################
+
+Ignore += *.csv *.zip
+Sources += $(wildcard *.R)
+hw2.Rout: hw2.R ## hw2.txt
+
 ### Makestuff
 
 ## Sources += $(wildcard *.mk)
@@ -25,7 +33,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
