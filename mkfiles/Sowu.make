@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Elorm Sowu
 
 current: target
 -include target.mk
@@ -7,6 +7,13 @@ current: target
 
 vim_session:
 	bash -cl "vmt"
+
+######################################################################
+
+Ignore += hw2.html
+hw2.html: hw2.Rmd
+%.html: %.Rmd
+	$(knithtml)
 
 ######################################################################
 
@@ -25,7 +32,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
