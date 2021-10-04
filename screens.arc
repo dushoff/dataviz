@@ -44,3 +44,5 @@ XX. Zarini: https://github.com/SZarini/Stat744.git
 XX. Chen: https://github.com/herryhen/Stats744.git
 
 XX. Lim: https://github.com/KyusonLim/Stat744.git
+
+XX. Wilke: https://github.com/clauswilke/dataviz ## NOALL
