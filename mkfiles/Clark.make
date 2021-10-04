@@ -14,7 +14,7 @@ autopipeR = defined
 
 ######################################################################
 
-Ignore += *.csv *.zip
+Ignore += *.csv *.zip *.eps
 Sources += $(wildcard *.R)
 hw2.Rout: hw2.R ## hw2.txt
 

@@ -5,6 +5,8 @@ current: target
 
 # -include makestuff/perl.def
 
+Sources += README.md
+
 vim_session:
 	bash -cl "vmt"
 
