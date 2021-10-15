@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Jen Freeman
 
 current: target
 -include target.mk
@@ -10,7 +10,12 @@ vim_session:
 
 ######################################################################
 
-Sources += README.md
+Sources += README.md $(wildcard hw*.rmd)
+
+Ignore += *.html
+## hw3.html: hw3.rmd
+hw%.html: hw%.rmd
+	$(knithtml)
 
 ######################################################################
 
@@ -30,7 +35,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

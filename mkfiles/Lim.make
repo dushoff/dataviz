@@ -12,10 +12,12 @@ vim_session:
 
 autopipeR = defined
 
-Sources += README.md
+Sources += README.md hw3.txt
 
-Sources += donut_chart.R
-donut_chart.Rout: donut_chart.R
+Sources += donut_chart.R hw3.R
+
+Ignore += graph_viz.png
+## hw3.Rout: hw3.R
 
 ######################################################################
 

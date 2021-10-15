@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Steven Lee 
 
 current: target
 -include target.mk
@@ -10,7 +10,12 @@ vim_session:
 
 ######################################################################
 
-Sources += README.md
+Sources += README.md $(wildcard hw*.Rmd)
+
+Ignore += *.html
+## hw3.html: hw3.Rmd
+hw%.html: hw%.Rmd
+	$(knithtml)
 
 ######################################################################
 
@@ -30,8 +35,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
--include makestuff/projdir.mk
