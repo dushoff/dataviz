@@ -10,7 +10,10 @@ vim_session:
 
 ######################################################################
 
-Sources += README.md 
+Sources += README.md $(wildcard hw*.R)
+
+hw3.html: hw3.Rmd
+	$(knithtml)
 
 ######################################################################
 
@@ -29,7 +32,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
