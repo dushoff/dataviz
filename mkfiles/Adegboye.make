@@ -11,11 +11,11 @@ vim_session:
 ######################################################################
 
 ## No pipeline
-## HW2/hw2.html: HW2/hw2.Rmd
+## HW4/hw4.html: HW4/hw4.Rmd
 
-Sources += HW2/jd.txt
+Sources += HW4/hw4.Rmd
 
-HW2/%.html: HW2/%.Rmd
+HW4/%.html: HW4/%.Rmd
 	$(knithtml)
 
 ### Makestuff

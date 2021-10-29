@@ -13,6 +13,9 @@ vim_session:
 Sources += $(wildcard *.R)
 ## hw2.Rout: hw2.R
 
+Sources += HW_W5/HW_Wk5.R
+HW_W5/HW_Wk5.Rout: HW_W5/HW_Wk5.R
+
 ######################################################################
 
 autopipeR = defined

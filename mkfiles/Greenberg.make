@@ -15,6 +15,9 @@ autopipeR = defined
 ## hw2.Rout: hw2.R
 ## hw2.R hw2.txt
 
+Sources += HW4.R SeoulBikeData.csv
+HW4.Rout: HW4.R SeoulBikeData.csv
+
 ######################################################################
 
 ### Makestuff

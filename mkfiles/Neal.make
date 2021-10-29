@@ -10,8 +10,9 @@ vim_session:
 
 ######################################################################
 
-Ignore += ## hw2.html
-## hw2.html: hw2.Rmd
+Sources += hw*.Rmd
+Ignore += hw*.html
+## hw4.html: hw4.Rmd
 %.html: %.Rmd
 	$(knithtml)
 

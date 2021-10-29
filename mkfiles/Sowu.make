@@ -10,8 +10,9 @@ vim_session:
 
 ######################################################################
 
-Ignore += hw2.html
-hw2.html: hw2.Rmd
+Ignore += hw*.html heart_disease_probabilities.pdf
+Sources += hw*.Rmd
+## hw4.html: hw4.Rmd
 %.html: %.Rmd
 	$(knithtml)
 
