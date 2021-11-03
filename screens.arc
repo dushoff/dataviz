@@ -25,8 +25,6 @@ XX. Greenberg: https://github.com/leighgreenberg/Stat744.git
 
 XX. Lee: https://github.com/leehye13/Stat744.git
 
-XX. Loskutova: https://github.com/tetyanaloskutova/Stat744.git
-
 XX. McLean: https://github.com/mcleaa7/Stat744.git
 
 XX. Mukherjee: https://github.com/Mananmukh/Stat744.git
