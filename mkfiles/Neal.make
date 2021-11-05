@@ -10,7 +10,7 @@ vim_session:
 
 ######################################################################
 
-Sources += hw*.Rmd
+Sources += $(wildcard hw*.Rmd)
 Ignore += hw*.html
 ## hw4.html: hw4.Rmd
 %.html: %.Rmd
