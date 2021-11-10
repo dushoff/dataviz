@@ -18,7 +18,8 @@ Ignore += vaccinedata.csv
 vaccinedata.csv:
 	$(LN) ../course/docs/data/vaccine_data_online.csv $@
 
-HW3.Rout: HW3.R
+HW5.Rout: HW5.R
+HW6.Rout: HW6.R
 
 ######################################################################
 
