@@ -10,9 +10,9 @@ vim_session:
 
 ######################################################################
 
-Sources += README.md $(wildcard hw*.R)
+Sources += README.md $(wildcard hw*.R hw*.Rmd)
 
-hw3.html: hw3.Rmd
+hw5.html: hw5.Rmd
 	$(knithtml)
 
 ######################################################################
