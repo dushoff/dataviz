@@ -11,6 +11,12 @@ XX. course/code:
 
 XX. ancient: https://github.com/bbolker/stat744.git
 
+######################################################################
+
+XX. CatMovement: https://github.com/JasonPekos/CatMovement
+
+######################################################################
+
 XX. Adegboye: https://github.com/korede97/Stat744.git
 
 XX. Cai: https://github.com/ruicai-rc/Stat744.git
