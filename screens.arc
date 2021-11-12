@@ -13,7 +13,30 @@ XX. ancient: https://github.com/bbolker/stat744.git
 
 ######################################################################
 
+## Jason and Jennifer (no Mondays)
 XX. CatMovement: https://github.com/JasonPekos/CatMovement
+
+## Korede and Kyuson
+
+Air quality
+
+## Sherry ## Siyi Maps and rivers
+
+XX. rivers: https://github.com/lytgysrn/STAT744-Project.git
+
+## Sina and Adrienne
+
+FISH
+
+## Leigh and Rui and Steven
+
+Economics
+
+XX. Economics: https://github.com/leehye13/STAT744_Proj.git
+
+## Elorm and Mckenzie
+
+HEALTH looking at PHO
 
 ######################################################################
 
