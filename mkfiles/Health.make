@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for the rivers project
+## This is a _linked_ (mkfile) Makefile for Health
 
 current: target
 -include target.mk
@@ -10,11 +10,10 @@ vim_session:
 
 ######################################################################
 
-Sources += prospectus.txt
-
-## STAT744_ prospectus outlining.pdf
+Sources += comments.txt
 
 ######################################################################
+
 ### Makestuff
 
 ## Sources += $(wildcard *.mk)
@@ -30,7 +29,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
--include makestuff/pipeR.mk
+## -include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

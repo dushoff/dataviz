@@ -18,7 +18,7 @@ XX. CatMovement: https://github.com/JasonPekos/CatMovement
 
 ## Korede and Kyuson
 
-Air quality
+XX. Air_quality: https://github.com/korede97/final_project_stats744.git
 
 ## Sherry ## Siyi Maps and rivers
 
@@ -26,7 +26,7 @@ XX. rivers: https://github.com/lytgysrn/STAT744-Project.git
 
 ## Sina and Adrienne
 
-FISH
+XX. fish: https://github.com/mcleaa7/RG_PopMon_DataViz.git
 
 ## Leigh and Rui and Steven
 
@@ -36,7 +36,7 @@ XX. Economics: https://github.com/leehye13/STAT744_Proj.git
 
 ## Elorm and Mckenzie
 
-HEALTH looking at PHO
+XX. Health: https://github.com/mneal4/Stat744Project.git
 
 ######################################################################
 

@@ -10,6 +10,16 @@ vim_session:
 
 ######################################################################
 
+%.html: %.Rmd
+	$(knithtml)
+
+Sources += $(wildcard *.Rmd)
+Ignore += Project_Proposal.html WhenAreCatsTracked.html
+## Project_Proposal.html: Project_Proposal.Rmd
+## WhenAreCatsTracked.html: WhenAreCatsTracked.Rmd
+
+######################################################################
+
 ### Makestuff
 
 ## Sources += $(wildcard *.mk)
@@ -25,7 +35,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

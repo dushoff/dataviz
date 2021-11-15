@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for the rivers project
+## This is a _linked_ (mkfile) Makefile for Air quality project
 
 current: target
 -include target.mk
@@ -10,11 +10,10 @@ vim_session:
 
 ######################################################################
 
-Sources += prospectus.txt
-
-## STAT744_ prospectus outlining.pdf
+Sources += README.md
 
 ######################################################################
+
 ### Makestuff
 
 ## Sources += $(wildcard *.mk)
