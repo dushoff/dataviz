@@ -19,6 +19,9 @@ Sources += donut_chart.R hw3.R
 Ignore += graph_viz.png
 ## hw3.Rout: hw3.R
 
+hw5.html: hw5/hw5.Rmd
+	$(knithtml)
+
 ######################################################################
 
 ### Makestuff
