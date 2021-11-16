@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Cat movement
 
 current: target
 -include target.mk
@@ -7,6 +7,16 @@ current: target
 
 vim_session:
 	bash -cl "vmt"
+
+######################################################################
+
+%.html: %.Rmd
+	$(knithtml)
+
+Sources += $(wildcard *.Rmd)
+Ignore += Project_Proposal.html WhenAreCatsTracked.html
+## Project_Proposal.html: Project_Proposal.Rmd
+## WhenAreCatsTracked.html: WhenAreCatsTracked.Rmd
 
 ######################################################################
 
@@ -25,7 +35,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
