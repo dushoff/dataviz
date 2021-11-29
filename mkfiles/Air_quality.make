@@ -12,6 +12,9 @@ vim_session:
 
 Sources += README.md
 
+trends.html: trends.md
+	$(pandocs)
+
 ######################################################################
 
 ### Makestuff
@@ -34,3 +37,4 @@ makestuff/Makefile:
 -include makestuff/git.mk
 -include makestuff/visual.mk
 -include makestuff/projdir.mk
+-include makestuff/pandoc.mk

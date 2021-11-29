@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for Economics
 
 current: target
 -include target.mk
@@ -16,6 +16,11 @@ Ignore += pwt.xlsx
 
 ######################################################################
 
+Sources += $(wildcard *.Rmd)
+Ignore += tech_plot.html
+tech_plot.html: tech_plot.Rmd
+	$(knithtml)
+
 ### Makestuff
 
 ## Sources += $(wildcard *.mk)
@@ -31,7 +36,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
