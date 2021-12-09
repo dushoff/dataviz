@@ -32,7 +32,7 @@ XX. fish: https://github.com/mcleaa7/RG_PopMon_DataViz.git
 
 XX. Economics: https://github.com/leehye13/STAT744_Proj.git
 
-## Elorm and Mckenzie
+## Elorm and Mackenzie
 
 XX. Health: https://github.com/mneal4/Stat744Project.git
 
