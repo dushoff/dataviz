@@ -3,38 +3,38 @@ XX. course: https://github.com/mac-theobio/DataViz.git
 
 XX. private: https://github.com/mac-theobio/DataViz_private.git
 
-XX. course/old_repo:
-
 XX. course/lectures:
 
 XX. course/code:
+
+XX. old: https://github.com/mac-theobio/DataViz19.git
 
 XX. ancient: https://github.com/bbolker/stat744.git
 
 ######################################################################
 
 ## Jason and Jennifer (no Mondays)
-XX. CatMovement: https://github.com/JasonPekos/CatMovement
+CatMovement: https://github.com/JasonPekos/CatMovement
 
 ## Korede and Kyuson
 
-XX. Air_quality: https://github.com/korede97/final_project_stats744.git
+Air_quality: https://github.com/korede97/final_project_stats744.git
 
 ## Sherry ## Siyi Maps and rivers
 
-XX. rivers: https://github.com/lytgysrn/STAT744-Project.git
+rivers: https://github.com/lytgysrn/STAT744-Project.git
 
 ## Sina and Adrienne
 
-XX. fish: https://github.com/mcleaa7/RG_PopMon_DataViz.git
+fish: https://github.com/mcleaa7/RG_PopMon_DataViz.git
 
 ## Leigh and Rui and Steven
 
-XX. Economics: https://github.com/leehye13/STAT744_Proj.git
+Economics: https://github.com/leehye13/STAT744_Proj.git
 
 ## Elorm and Mackenzie
 
-XX. Health: https://github.com/mneal4/Stat744Project.git
+Health: https://github.com/mneal4/Stat744Project.git
 
 ######################################################################
 
