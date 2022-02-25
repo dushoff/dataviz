@@ -9,7 +9,7 @@ XX. course/code:
 
 XX. old: https://github.com/mac-theobio/DataViz19.git
 
-XX. ancient: https://github.com/bbolker/stat744.git
+ancient: https://github.com/bbolker/stat744.git
 
 ######################################################################
 
