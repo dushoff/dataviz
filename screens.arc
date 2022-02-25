@@ -14,7 +14,7 @@ XX. ancient: https://github.com/bbolker/stat744.git
 ######################################################################
 
 ## Jason and Jennifer (no Mondays)
-CatMovement: https://github.com/JasonPekos/CatMovement
+XX. CatMovement: https://github.com/JasonPekos/CatMovement
 
 ## Korede and Kyuson
 

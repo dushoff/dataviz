@@ -15,15 +15,6 @@ screen_session: screens.update
 
 ######################################################################
 
-Shmealth:
-	$(MAKE) Neal
-	ln -s Neal/Project $@
-
-Shmealth/Makefile:
-	cd Shmealth && ln -s ../../mkfiles/Shmealth.make $(notdir $@)
-
-######################################################################
-
 ### Makestuff
 
 Sources += Makefile $(wildcard *.md)

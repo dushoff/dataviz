@@ -18,6 +18,8 @@ Ignore += Project_Proposal.html WhenAreCatsTracked.html
 ## Project_Proposal.html: Project_Proposal.Rmd
 ## WhenAreCatsTracked.html: WhenAreCatsTracked.Rmd
 
+Sources += jd_comments.txt
+
 ######################################################################
 
 ### Makestuff

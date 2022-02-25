@@ -11,6 +11,7 @@ vim_session:
 ######################################################################
 
 Sources += README.md
+Sources += jd_comments.txt
 
 trends.html: trends.md
 	$(pandocs)

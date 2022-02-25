@@ -14,6 +14,8 @@ Sources += README.md
 
 Ignore += pwt.xlsx
 
+Sources += jd_comments.txt
+
 ######################################################################
 
 Sources += $(wildcard *.Rmd)

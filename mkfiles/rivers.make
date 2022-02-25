@@ -14,6 +14,9 @@ Sources += prospectus.txt
 
 ## STAT744_ prospectus outlining.pdf
 
+Sources += jd_comments.txt
+
+
 ######################################################################
 ### Makestuff
 

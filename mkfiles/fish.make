@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for ffish
 
 current: target
 -include target.mk
@@ -14,6 +14,9 @@ Sources += README.md $(wildcard *.R)
 
 ## Final_Project_Data_WIP.R
 ## Fina_Project_Viz_WIP.R
+
+Sources += jd_comments.txt
+
 
 ######################################################################
 
